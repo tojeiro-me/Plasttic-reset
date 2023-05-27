@@ -2,6 +2,8 @@
 
 A new CSS Reset
 
+Styling for CSS browser compatibility and best practices styling defaults
+
 ---
 
 References:
