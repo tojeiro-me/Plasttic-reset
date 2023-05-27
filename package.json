@@ -31,7 +31,7 @@
     "email": "global@plasttic.dev"
   },
   "scripts": {
-    "min": "cleancss -o dist/reset.min.css src/reset.css"
+    "dist": "cleancss -o dist/reset.min.css src/reset.css"
   },
   "devDependencies": {
     "clean-css": "^5.3.2",
