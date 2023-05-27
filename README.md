@@ -1,6 +1,17 @@
-# Plasttic-reset
+# Plasttic CSS Reset
 
-A CSS Reset
+A new CSS Reset
+
+---
+
+References:
+
+- A Modern CSS Reset by Andy Bell @piccalilli\_
+- https://piccalil.li/blog/a-modern-css-reset/
+- Custom CSS Reset by Josh Comeau @JoshWComeau
+- https://www.joshwcomeau.com/css/custom-css-reset/
+- Open Props Normalize by Adam Argyle @argyleink
+- https://codepen.io/argyleink/pen/KKvRORE
 
 ---
 
