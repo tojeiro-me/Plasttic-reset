@@ -1,0 +1,40 @@
+{
+  "name": "plasttic-reset",
+  "version": "1.0.0",
+  "description": "A CSS Reset",
+  "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
+  "homepage": "https://github.com/tojeiro-me/Plasttic-reset",
+  "license": "MIT",
+  "keywords": [
+    "plasttic css reset",
+    "css reset",
+    "css"
+  ],
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tojeiro-me/Plasttic-reset.git"
+  },
+  "main": "dist/reset.min.css",
+  "directories": {
+    "src": "src",
+    "dist": "dist"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "bugs": {
+    "url": "https://github.com/tojeiro-me/Plasttic-reset/issues",
+    "email": "global@plasttic.dev"
+  },
+  "scripts": {
+    "min": "cleancss -o dist/reset.min.css dist/reset.css"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.2",
+    "clean-css-cli": "^5.6.2"
+  }
+}

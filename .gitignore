@@ -16,5 +16,6 @@ tests/
 *-nogit.*
 
 # development folders
+package/
 dev/
 dist/
