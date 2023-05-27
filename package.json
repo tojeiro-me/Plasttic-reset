@@ -15,7 +15,7 @@
     "type": "git",
     "url": "git+https://github.com/tojeiro-me/Plasttic-reset.git"
   },
-  "main": "dist/reset.min.css",
+  "main": "./dist/reset.min.css",
   "directories": {
     "src": "src",
     "dist": "dist"
@@ -30,6 +30,7 @@
     "url": "https://github.com/tojeiro-me/Plasttic-reset/issues",
     "email": "global@plasttic.dev"
   },
+  "config": {},
   "scripts": {
     "dist": "cleancss -o dist/reset.min.css src/reset.css"
   },
