@@ -2,7 +2,7 @@
 
 A new CSS Reset
 
-Styling for CSS browser compatibility and best practices styling defaults
+Styling for CSS browser consistency and best practices styling defaults
 
 ---
 
