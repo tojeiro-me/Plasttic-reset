@@ -1,6 +1,6 @@
 {
   "name": "plasttic-reset",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Plasttic CSS Reset",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic-reset",
@@ -21,6 +21,10 @@
     "dist": "dist"
   },
   "files": [
+    "dist/reset.min.css",
+    "src/reset.css",
+    ".browserslistrc",
+    "postcss.config.cjs",
     "CHANGELOG.md",
     "README.md",
     "LICENSE",
