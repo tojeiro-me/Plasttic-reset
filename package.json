@@ -32,10 +32,9 @@
   },
   "config": {},
   "scripts": {
-    "dist": "cleancss -o dist/reset.min.css src/reset.css"
+    "dist": "postcss src/reset.css -o dist/reset.min.css"
   },
   "devDependencies": {
-    "clean-css": "^5.3.2",
-    "clean-css-cli": "^5.6.2"
+    "postcss": "^8.4.23"
   }
 }
