@@ -1,0 +1,12 @@
+# OS files
+**/.DS_Store
+
+# dependencies
+node_modules/
+
+# private folders
+archive/
+tests/
+
+# private files
+*-nogit.*
