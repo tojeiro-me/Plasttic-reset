@@ -4,8 +4,6 @@ A CSS Reset styling for CSS browser consistency with best practices defaults tha
 
 ---
 
-Usage:
-
 ---
 
 CSS Files:
