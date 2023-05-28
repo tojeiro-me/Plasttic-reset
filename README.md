@@ -1,8 +1,6 @@
 # Plasttic CSS Reset
 
-A new CSS Reset
-
-Styling for CSS browser consistency and best practices styling defaults
+A CSS Reset styling for CSS browser consistency and best practices defaults that provides a starting point from which to apply your own styling.
 
 ---
 
