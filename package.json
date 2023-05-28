@@ -32,9 +32,14 @@
   },
   "config": {},
   "scripts": {
-    "dist": "postcss src/reset.css -o dist/reset.min.css"
+    "dist": "postcss src/reset.css --no-map -o dist/reset.min.css"
   },
   "devDependencies": {
-    "postcss": "^8.4.23"
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
+    "postcss-discard-empty": "^6.0.0",
+    "postcss-preset-env": "^8.4.1"
   }
 }
