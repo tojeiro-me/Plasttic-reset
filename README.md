@@ -4,7 +4,7 @@ A CSS Reset styling for CSS browser consistency with best practices defaults tha
 
 ---
 
-Files:
+CSS Files:
 
 - Minified: https://github.com/tojeiro-me/Plasttic-reset/blob/master/dist/reset.min.css
 - Source: https://github.com/tojeiro-me/Plasttic-reset/blob/master/src/reset.css
