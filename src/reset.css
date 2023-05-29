@@ -117,14 +117,20 @@
 }
 
 /* Forms */
-:where(button, input, label[for], select, textarea),
+:where(button, input, select, textarea),
 :where(input[type='file'])::-webkit-file-upload-button {
   /* Apply document default typography styles */
   color: inherit;
+  background: transparent;
+  border: 1px solid #000;
   font: inherit;
   font-size: inherit;
   letter-spacing: inherit;
   padding: 0;
+}
+:where(input[type='file']) {
+  /* Apply document default typography styles */
+  border: none;
 }
 
 /* Focus style */
@@ -135,7 +141,8 @@
     textarea,
     select,
     [tabindex]:not([tabindex*='-'])
-  ):focus-visible {
+  ):focus-visible,
+:where(input[type='file'])::-webkit-file-upload-button:focus-visible {
   outline: 1px solid hsl(0 0% 100%);
   outline-offset: 2px;
   box-shadow: 0 0 0 2px var(--ptt-reset-focus, hsl(26 86% 61%));
@@ -160,5 +167,5 @@
 /* Customize */
 
 :root {
-  --ptt-reset-focus: rgb(23, 98, 113);
+  --ptt-reset-focus: rgb(45, 142, 161);
 }
