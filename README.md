@@ -1,3 +1,5 @@
+[![Plasttic](https://plasttic.dev/assets/img/social/default-banner-1200_630.png)](https://plasttic.dev)
+
 # Plasttic CSS Reset
 
 A CSS Reset styling for browser consistency with best practices defaults.
