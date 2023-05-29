@@ -38,7 +38,7 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 @import "https://unpkg.com/plasttic-reset";
 ```
 
-1. Installation
+2. Installation
 
 - Install package
 
