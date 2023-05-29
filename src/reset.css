@@ -46,6 +46,8 @@
 }
 :where(abbr) {
   cursor: help;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
 }
 
 /* Typography */
