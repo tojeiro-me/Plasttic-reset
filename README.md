@@ -18,7 +18,7 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 
 ## Demo
 
-- https://codepen.io/tojeiro/pen/mdzYVjP
+- https://codepen.io/tojeiro/pen/mdzYVjP?editors=1100
 
 ---
 
@@ -28,9 +28,22 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 
 ---
 
+## Notes
+
+- Styling file upload button
+
+```CSS
+input[type='file']::-webkit-file-upload-button,
+input[type='file']::file-selector-button {
+  /* styling properties */
+}
+```
+
+---
+
 ## Customize
 
-```
+```CSS
   /* Focus style color */
   --ptt-reset-focus-color: hsl(26 86% 61%); /* replace by brand color, ... */
 
