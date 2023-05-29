@@ -31,6 +31,25 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 
 ---
 
+## Customize
+
+```
+  /* Focus style color */
+  --ptt-reset-focus-color: hsl(26 86% 61%); /* replace by brand color, ... */
+
+  /* The next properties best values depends on the font used */
+  --ptt-reset-body-line-height: 1.45; /* 1.3 to 1.6 */
+  --ptt-reset-h123-line-height: 1.1; /* 1 to 1.2 */
+  --ptt-reset-h1-width: 30ch;
+  --ptt-reset-h2-width: 35ch;
+  --ptt-reset-h3-width: 45ch;
+  --ptt-reset-hpli-width: 65ch; /* 50ch to 80ch - h4, h5, h6, p, li */
+  --ptt-reset-body-spacing: 0.012em;
+  --ptt-reset-h123-spacing: 0.01em;
+```
+
+---
+
 References:
 (because we don't reinvent the wheel, someone has already done a good job)
 
