@@ -9,7 +9,7 @@ A CSS Reset styling for CSS browser consistency with best practices defaults.
 Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundation to develop an accessible, responsive and robust interface.
 
 - Removes browser inconsistencies.
-- Resets some properties to start styling from scratch.
+- Resets some properties for easier and more predictable styling results.
 - Improves accessibility through some best practices values.
 - Uses :where() to allow overrides without specificity issues.
 - Offers custom properties to change some default values.
