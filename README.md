@@ -1,6 +1,6 @@
 # Plasttic CSS Reset
 
-A CSS Reset styling for CSS browser consistency with best practices defaults.
+A CSS Reset styling for browser consistency with best practices defaults.
 
 ---
 
@@ -24,7 +24,33 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 
 ## Usage
 
-1. ...
+1. From CDN (no installation)
+
+- In the HTML page
+
+```HTML
+  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset" />
+```
+
+- In the CSS file
+
+```CSS
+@import "https://unpkg.com/plasttic-reset";
+```
+
+1. Installation
+
+- Install package
+
+```
+npm i plasttic-reset
+```
+
+- In the CSS file
+
+```CSS
+@import "plasttic-reset";
+```
 
 ---
 
@@ -62,10 +88,33 @@ input[type='file']::file-selector-button {
 
 ## Developer
 
-- Minified: https://github.com/tojeiro-me/Plasttic-reset/blob/master/dist/reset.min.css
-- Source: https://github.com/tojeiro-me/Plasttic-reset/blob/master/src/reset.css
+1. Repository
 
-- ...
+- https://github.com/tojeiro-me/Plasttic-reset
+
+2. CSS Files:
+
+- Minified: dist/reset.min.css
+- Source: src/reset.css
+
+3. Config files
+
+- Supported Browsers: .browserslistrc (https://browsersl.ist/)
+- PostCSS preset-env stage: postcss.config.cjs (https://github.com/csstools/postcss-preset-env#stage)
+
+4. Repository
+
+- Clone repository
+
+```
+git clone https://github.com/tojeiro-me/Plasttic-reset.git
+```
+
+- Install dependencies
+
+```
+npm install
+```
 
 - Parse and Minimize source to dist (reset.min.css)
 
