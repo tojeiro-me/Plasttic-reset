@@ -22,15 +22,6 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 
 ---
 
-## Files
-
-- Minified: https://github.com/tojeiro-me/Plasttic-reset/blob/master/dist/reset.min.css
-- Source: https://github.com/tojeiro-me/Plasttic-reset/blob/master/src/reset.css
-
-- ...
-
----
-
 ## Customize
 
 ```
@@ -46,6 +37,21 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
   --ptt-reset-hpli-width: 65ch; /* 50ch to 80ch - h4, h5, h6, p, li */
   --ptt-reset-body-spacing: 0.012em;
   --ptt-reset-h123-spacing: 0.01em;
+```
+
+---
+
+## Developer
+
+- Minified: https://github.com/tojeiro-me/Plasttic-reset/blob/master/dist/reset.min.css
+- Source: https://github.com/tojeiro-me/Plasttic-reset/blob/master/src/reset.css
+
+- ...
+
+- Parse and Minimize source to dist (reset.min.css)
+
+```
+npm run dist
 ```
 
 ---
