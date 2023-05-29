@@ -136,7 +136,7 @@
   ):focus-visible {
   outline: 1px solid hsl(0 0% 100%);
   outline-offset: 2px;
-  box-shadow: 0 0 0 2px hsl(26 86% 61%);
+  box-shadow: 0 0 0 2px var(--ptt-reset-focus, hsl(26 86% 61%));
   border-radius: 1px;
 }
 
@@ -153,4 +153,10 @@
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* Customize */
+
+:root {
+  --ptt-reset-focus: rgb(23, 98, 113);
 }
