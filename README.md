@@ -26,29 +26,29 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 
 ## Usage
 
-1. From CDN (no installation)
+### From CDN (no installation)
 
-- In the HTML page
+  1. In the HTML page
 
 ```HTML
   <link rel="stylesheet" href="https://unpkg.com/plasttic-reset" />
 ```
 
-- In the CSS file
+  2. In the CSS file
 
 ```CSS
 @import "https://unpkg.com/plasttic-reset";
 ```
 
-2. Installation
+### Installation
 
-- Install package
+  1. Install package
 
 ```
 npm i plasttic-reset
 ```
 
-- In the CSS file
+  2. In the CSS file
 
 ```CSS
 @import "plasttic-reset";
@@ -58,7 +58,7 @@ npm i plasttic-reset
 
 ## Notes
 
-- Styling file upload button
+### Styling file upload button
 
 ```CSS
 input[type='file']::-webkit-file-upload-button,
@@ -73,7 +73,7 @@ input[type='file']::file-selector-button {
 
 ```CSS
   /* Focus style color */
-  --ptt-reset-focus-color: hsl(26 86% 61%); /* replace by brand color, ... */
+  --ptt-reset-focus-color: hsl(26 86% 61%); /* replace with brand color, ... */
 
   /* The next properties best values depends on the font used */
   --ptt-reset-body-line-height: 1.45; /* 1.3 to 1.6 */
