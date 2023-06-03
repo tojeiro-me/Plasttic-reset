@@ -137,6 +137,7 @@ _Main project: [Plasttic](https://github.com/tojeiro-me/Plasttic)_
 ---
 
 Other CSS Resets/Normalize:
+
 (excellent alternatives and references)
 
 - A Modern CSS Reset by Andy Bell @piccalilli\_
