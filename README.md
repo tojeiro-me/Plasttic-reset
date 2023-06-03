@@ -28,13 +28,13 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 
 ### From CDN (no installation)
 
-  1. In the HTML page
+1. In the HTML page
 
 ```HTML
   <link rel="stylesheet" href="https://unpkg.com/plasttic-reset" />
 ```
 
-  2. In the CSS file
+2. In the CSS file
 
 ```CSS
 @import "https://unpkg.com/plasttic-reset";
@@ -42,13 +42,13 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 
 ### Installation
 
-  1. Install package
+1. Install package
 
 ```
 npm i plasttic-reset
 ```
 
-  2. In the CSS file
+2. In the CSS file
 
 ```CSS
 @import "plasttic-reset";
@@ -126,8 +126,19 @@ npm run dist
 
 ---
 
-References:
-(because we don't reinvent the wheel, someone has already done a good job)
+_Main project: [Plasttic](https://github.com/tojeiro-me/Plasttic)_
+
+---
+
+## License
+
+[MIT](./LICENSE)
+
+---
+
+Other CSS Resets/Normalize:
+
+(excellent alternatives and references)
 
 - A Modern CSS Reset by Andy Bell @piccalilli\_
 - https://piccalil.li/blog/a-modern-css-reset/
@@ -136,6 +147,4 @@ References:
 - Open Props Normalize by Adam Argyle @argyleink
 - https://codepen.io/argyleink/pen/KKvRORE
 
----
-
-_Main project: [Plasttic](https://github.com/tojeiro-me/Plasttic)_
+_"Credit where credit is due!"_
