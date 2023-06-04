@@ -2,6 +2,8 @@
 
 - Updated margin and padding with logical properties
 - Update node modules
+- :warning: Custom properties override outside the reset file
+- 
 
 ---
 
