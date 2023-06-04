@@ -8,13 +8,13 @@ A CSS Reset styling for browser consistency with best practices defaults.
 
 ## About
 
-Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundation to develop an accessible, responsive and robust interface.
+Along with some good semantic HTML, Plasttic CSS Reset creates a clean and stripped foundation to develop an accessible, responsive and robust interface by applying your design system on a blank canvas.
 
 - Removes browser inconsistencies.
-- Resets some properties for easier and more predictable styling results.
-- Improves accessibility through some best practices values.
+- Resets properties for easier and more predictable styling results.
+- Improves accessibility through best practices values.
 - Uses :where() to allow overrides without specificity issues.
-- Offers custom properties to change some default values.
+- Offers custom properties to change some of the default values.
 
 ---
 
@@ -56,6 +56,10 @@ npm i plasttic-reset
 
 ---
 
+Check the [CHANGELOG](CHANGELOG.md) for version changes.
+
+---
+
 ## Notes
 
 ### Styling file upload button
@@ -79,13 +83,13 @@ This properties can be changed globally - using the :root {} pseudo-class - or s
 
   /* The next properties best values depends on the font used */
   --ptt-reset-body-line-height: 1.45; /* 1.3 to 1.6 */
+  --ptt-reset-body-width: 65ch; /* 50ch to 80ch - h5, h6, p, li */
+  --ptt-reset-body-spacing: 0.012em; /* letter spacing */
   --ptt-reset-h123-line-height: 1.1; /* 1 to 1.2 */
   --ptt-reset-h1-width: 30ch;
   --ptt-reset-h2-width: 35ch;
   --ptt-reset-h3-width: 45ch;
-  --ptt-reset-hpli-width: 65ch; /* 50ch to 80ch - h4, h5, h6, p, li */
-  --ptt-reset-body-spacing: 0.012em;
-  --ptt-reset-h123-spacing: 0.01em;
+  --ptt-reset-h4-width: 55ch;
 ```
 
 ---

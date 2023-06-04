@@ -18,7 +18,7 @@
   /* Remove default margin and padding globally */
   margin: 0;
   padding: 0;
-  /* Default styling for items with text decoration  */
+  /* Default styling for items with text decoration */
   text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.25ex;
 }
@@ -45,6 +45,9 @@
 :where(input[type='file'])::-webkit-file-upload-button {
   cursor: pointer;
 }
+:where(button, input, select, textarea)[disabled] {
+  cursor: no-drop;
+}
 :where(abbr) {
   cursor: help;
   text-decoration-line: underline;
@@ -58,47 +61,61 @@
   -webkit-text-size-adjust: none;
 }
 :where(body) {
-  font-family: system-ui, sans-serif;
+  font-family: system-ui, -apple-system, 'SF Pro', 'Segoe UI', Roboto, Ubuntu,
+    sans-serif;
   text-rendering: optimizeSpeed;
   /* Typography defaults for readability */
   line-height: var(--ptt-reset-body-line-height, 1.45);
   letter-spacing: var(--ptt-reset-body-spacing, 0.012em);
   word-spacing: 0.016em;
 }
-:where(h1, h2, h3) {
-  /* Prevent long lines */
-  max-width: var(--ptt-reset-h1-width, 30ch);
+:where(h1, h2, h3, h4) {
   /* Better spacing between content */
-  margin-block-end: 1.5em;
+  margin-block-end: 1.25em;
   /* Bigger headings typography defaults for readability */
   line-height: var(--ptt-reset-h123-line-height, 1.1);
-  letter-spacing: var(--ptt-reset-h123-spacing, 0.01 em);
-  word-spacing: 0.016em;
+  word-spacing: 0.015em;
 }
-:where(h2, h3) {
+:where(h2, h3, h4) {
   /* Better spacing between content */
-  margin-block-start: 2.5em;
+  margin-block-start: 2em;
+}
+:where(h1) {
+  /* Bigger font size */
+  font-size: 2.5rem;
+  /* Prevent long lines */
+  max-inline-size: var(--ptt-reset-h2-width, 25ch);
 }
 :where(h2) {
+  /* Bigger font size */
+  font-size: 2rem;
   /* Prevent long lines */
-  max-width: var(--ptt-reset-h2-width, 35ch);
+  max-inline-size: var(--ptt-reset-h2-width, 30ch);
 }
 :where(h3) {
+  /* Bigger font size */
+  font-size: 1.5rem;
   /* Prevent long lines */
-  max-width: var(--ptt-reset-h3-width, 45ch);
+  max-inline-size: var(--ptt-reset-h3-width, 35ch);
 }
-:where(h4, h5, h6, p, li) {
+:where(h4) {
+  /* Bigger font size */
+  font-size: 1rem;
+  /* Prevent long lines */
+  max-inline-size: var(--ptt-reset-h4-width, 55ch);
+}
+:where(h5, h6, p, li) {
   /* Prevent long lines for readability */
-  max-width: var(--ptt-reset-hpli-width, 65ch);
+  max-inline-size: var(--ptt-reset-hpli-width, 65ch);
 }
-:where(h4, h5, h6, p + p) {
+:where(h5, h6, p + p) {
   /* Better spacing between content */
   margin-block-start: 1.5em;
 }
 :where(h1, h2, h3, h4, h5, h6, p) {
   /* Text wrap */
   overflow-wrap: break-word;
-  text-wrap: balance; /* May 2023: not yet supported */
+  text-wrap: balance; /* partial support only on Chrome 114 */
 }
 
 /* Media */
@@ -126,13 +143,27 @@
   background: transparent;
   border: 1px solid #000;
   font: inherit;
-  font-size: inherit;
   letter-spacing: inherit;
   padding: 0;
 }
 :where(input[type='file']) {
   /* Apply document default typography styles */
   border: none;
+}
+
+/* Code */
+:where(pre, code, kbd, samp) {
+  font: inherit;
+  font-family: ui-monospace, 'SF Mono', 'Segoe UI Mono', 'Roboto Mono',
+    'Ubuntu Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+}
+:where(pre) {
+  max-inline-size: max-content;
+  white-space: pre;
+  writing-mode: lr;
+}
+:where(code) {
+  writing-mode: lr;
 }
 
 /* Focus style */
