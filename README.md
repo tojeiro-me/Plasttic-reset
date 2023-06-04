@@ -71,6 +71,8 @@ input[type='file']::file-selector-button {
 
 ## Customize
 
+This properties can be changed globally - using the :root {} pseudo-class - or scoped - targeting the tag or class in which you want to override the default values.
+
 ```CSS
   /* Focus style color */
   --ptt-reset-focus-color: hsl(26 86% 61%); /* replace with brand color, ... */
