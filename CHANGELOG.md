@@ -1,4 +1,10 @@
-# v1.0.4 (Jun 04, 2023)
+# v1.0.5 (Jun --, 2023)
+
+- ...
+
+---
+
+## v1.0.4 (Jun 04, 2023)
 
 - Updated margin and padding with logical properties
 - Updated node modules
