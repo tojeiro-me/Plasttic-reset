@@ -24,7 +24,7 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean foundatio
 
 ---
 
-## Usage
+## Start
 
 ### From CDN (no installation)
 
