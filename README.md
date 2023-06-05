@@ -18,7 +18,7 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean and strip
 
 ---
 
-## Demo
+## Demo page
 
 - https://codepen.io/tojeiro/pen/mdzYVjP?editors=1100
 
