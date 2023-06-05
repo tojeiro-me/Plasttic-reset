@@ -1,4 +1,10 @@
-# v1.1.0 (Jun 05, 2023)
+# v1.1.1 (Jun --, 2023)
+
+- :warning: Updated header line height custom property name
+
+---
+
+## v1.1.0 (Jun 05, 2023)
 
 - Updated default fonts (sans serif and monospace)
 - Added styling for `<pre>, <code>, <kbd> and <samp>`

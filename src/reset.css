@@ -73,7 +73,7 @@
   /* Better spacing between content */
   margin-block-end: 1.25em;
   /* Bigger headings typography defaults for readability */
-  line-height: var(--ptt-reset-h123-line-height, 1.1);
+  line-height: var(--ptt-reset-header-line-height, 1.1);
   word-spacing: 0.015em;
 }
 :where(h2, h3, h4) {
