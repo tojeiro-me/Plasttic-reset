@@ -85,7 +85,7 @@ This properties can be changed globally - using the :root {} pseudo-class - or s
   --ptt-reset-body-line-height: 1.45; /* 1.3 to 1.6 */
   --ptt-reset-body-width: 65ch; /* 50ch to 80ch - h5, h6, p, li */
   --ptt-reset-body-spacing: 0.012em; /* letter spacing */
-  --ptt-reset-h123-line-height: 1.1; /* 1 to 1.2 */
+  --ptt-reset-header-line-height: 1.1; /* 1 to 1.2 - h1, h2, h3, h4 */
   --ptt-reset-h1-width: 30ch;
   --ptt-reset-h2-width: 35ch;
   --ptt-reset-h3-width: 45ch;
