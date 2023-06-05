@@ -1,4 +1,12 @@
-# v1.1.1 (Jun --, 2023)
+# :construction: v1.1.2 (Jun --, 2023)
+
+- ...
+
+---
+
+# Releases:
+
+## v1.1.1 (Jun 05, 2023)
 
 - :warning: Updated header line height custom property name
 - Added test page
