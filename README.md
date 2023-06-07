@@ -132,10 +132,6 @@ npm run dist
 
 ---
 
-_Main project: [Plasttic](https://github.com/tojeiro-me/Plasttic)_
-
----
-
 ## License
 
 [MIT](./LICENSE)
@@ -154,3 +150,7 @@ Other CSS Resets/Normalize:
 - https://codepen.io/argyleink/pen/KKvRORE
 
 _"Credit where credit is due!"_
+
+---
+
+[![Plasttic](https://plasttic.dev/repo-badge-50h.png)](https://github.com/tojeiro-me/Plasttic)
