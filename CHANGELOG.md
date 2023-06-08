@@ -1,6 +1,7 @@
-# :construction: v1.1.2 (Jun --, 2023)
+# v1.1.2 (Jun 08, 2023)
 
 - Configured dependabot
+- Updated description
 
 ---
 
