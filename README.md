@@ -1,4 +1,4 @@
-[![Plasttic](https://plasttic.dev/repo-banner-1400w-reset.png)](https://plasttic.dev)
+[![Plasttic](./.github/assets/repo-banner-1400w-reset.png)](https://plasttic.dev)
 
 # Plasttic CSS Reset
 
@@ -132,12 +132,6 @@ npm run dist
 
 ---
 
-## License
-
-[MIT](./LICENSE)
-
----
-
 Other CSS Resets/Normalize:
 
 (excellent alternatives and references)
@@ -151,6 +145,18 @@ Other CSS Resets/Normalize:
 
 _"Credit where credit is due!"_
 
+## Follow
+
 ---
 
-[![Plasttic](https://plasttic.dev/repo-badge-50h.png)](https://github.com/tojeiro-me/Plasttic)
+[![Twitter](./.github/assets/twitter.svg)](https://twitter.com/Plasttic_Dev)&emsp;[![Mastodon](./.github/assets/mastodon.svg)](https://mastodon.social/@plasttic)&emsp;[![Github](./.github/assets/github.svg)](https://github.com/tojeiro-me)
+
+---
+
+## License
+
+[MIT](./LICENSE)
+
+---
+
+[![Plasttic](./.github/assets/repo-badge-50h.png)](https://github.com/tojeiro-me/Plasttic)
