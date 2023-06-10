@@ -31,13 +31,13 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean and strip
 1. In the HTML page
 
 ```HTML
-  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2.0" />
+  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2" />
 ```
 
 2. In the CSS file
 
 ```CSS
-@import "https://unpkg.com/plasttic-reset@2.0";
+@import "https://unpkg.com/plasttic-reset@2";
 ```
 
 ### Installation
