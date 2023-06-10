@@ -20,5 +20,4 @@ tests/
 
 # development folders
 **/sources/
-**/test/
 dev/
