@@ -31,13 +31,13 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean and strip
 1. In the HTML page
 
 ```HTML
-  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset" />
+  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2.0" />
 ```
 
 2. In the CSS file
 
 ```CSS
-@import "https://unpkg.com/plasttic-reset";
+@import "https://unpkg.com/plasttic-reset@2.0";
 ```
 
 ### Installation
@@ -52,6 +52,21 @@ npm i plasttic-reset
 
 ```CSS
 @import "plasttic-reset";
+```
+
+### Download
+
+1. Download Zip
+
+```
+https://github.com/tojeiro-me/Plasttic-reset/archive/refs/heads/master.zip
+unzip file
+```
+
+2. In the HTML page (no automatic update)
+
+```HTML
+  <link rel="stylesheet" href="/path-to-file/reset.min.css" />
 ```
 
 ---
