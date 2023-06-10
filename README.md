@@ -26,20 +26,18 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean and strip
 
 ## Start
 
-([Download](#download): if you wish to prevent using latest version)
-
 ### From CDN (no installation)
 
 1. In the HTML page
 
 ```HTML
-  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset" />
+  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2.0" />
 ```
 
 2. In the CSS file
 
 ```CSS
-@import "https://unpkg.com/plasttic-reset";
+@import "https://unpkg.com/plasttic-reset@2.0";
 ```
 
 ### Installation
