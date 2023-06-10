@@ -26,7 +26,7 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean and strip
 
 ## Start
 
-([Download](): if you wish to prevent using latest version)
+([Download](#download): if you wish to prevent using latest version)
 
 ### From CDN (no installation)
 
