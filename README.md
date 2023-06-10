@@ -154,15 +154,13 @@ npm run dist
 
 ---
 
-Other CSS Resets/Normalize:
+Inspired by the work of:
 
-(excellent alternatives and references)
-
-- A Modern CSS Reset by Andy Bell @piccalilli\_
+- Andy Bell @piccalilli\_
 - https://piccalil.li/blog/a-modern-css-reset/
-- Custom CSS Reset by Josh Comeau @JoshWComeau
+- Comeau @JoshWComeau
 - https://www.joshwcomeau.com/css/custom-css-reset/
-- Open Props Normalize by Adam Argyle @argyleink
+- Adam Argyle @argyleink
 - https://codepen.io/argyleink/pen/KKvRORE
 
 _"Credit where credit is due!"_
