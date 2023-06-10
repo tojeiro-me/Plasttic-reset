@@ -26,6 +26,8 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean and strip
 
 ## Start
 
+([Download](): if you wish to prevent using latest version)
+
 ### From CDN (no installation)
 
 1. In the HTML page
@@ -52,6 +54,21 @@ npm i plasttic-reset
 
 ```CSS
 @import "plasttic-reset";
+```
+
+### Download
+
+1. Download Zip
+
+```
+https://github.com/tojeiro-me/Plasttic-reset/archive/refs/heads/master.zip
+unzip file
+```
+
+2. In the HTML page (no automatic update)
+
+```HTML
+  <link rel="stylesheet" href="/path-to-file/reset.min.css" />
 ```
 
 ---
