@@ -118,7 +118,7 @@
   margin-block-end: var(--ptt-reset-header-space-bottom, 0.75em);
 }
 :where(article h1, header:not([role='banner']) > h1),
-:where(article h1, h2, h3, h4) {
+:where(h2, h3, h4) {
   /* Better spacing between content */
   margin-block-start: var(--ptt-reset-header-space-top, 2em);
 }

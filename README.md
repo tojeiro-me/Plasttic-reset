@@ -31,13 +31,13 @@ Along with some good semantic HTML, Plasttic CSS Reset creates a clean and strip
 1. In the HTML page
 
 ```HTML
-  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2" />
+  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2.0" />
 ```
 
 2. In the CSS file
 
 ```CSS
-@import "https://unpkg.com/plasttic-reset@2";
+@import "https://unpkg.com/plasttic-reset@2.0";
 ```
 
 ### Installation
@@ -108,7 +108,7 @@ This properties can be changed globally - using the :root {} pseudo-class - or s
 
   /* Better spacing between content */
   --ptt-reset-content-space-top: 0.5em;
-  --ptt-reset-header-space-bottom: 1.25em; /* h1, h2, h3, h4 */
+  --ptt-reset-header-space-bottom: 0.75em; /* h1, h2, h3, h4 */
   --ptt-reset-header-space-top: 2em; /* h1, h2, h3, h4 */
 ```
 
