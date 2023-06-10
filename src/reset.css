@@ -1,7 +1,7 @@
-/*! Plasttic CSS Reset v1.1.3 | MIT License | https://plasttic.dev/ */
+/*! Plasttic CSS Reset v2.0.0 | MIT License | https://plasttic.dev/ */
 
 /**
-  * Plasttic CSS Reset v1.1.3
+  * Plasttic CSS Reset v2.0.0
   *
   * Styling for CSS cross-browser consistency,
   * resets for predicted styling results
@@ -117,7 +117,7 @@
   /* Better spacing between content */
   margin-block-end: var(--ptt-reset-header-space-bottom, 0.75em);
 }
-:where(article h1, section h1),
+:where(article h1, header:not([role='banner']) > h1),
 :where(article h1, h2, h3, h4) {
   /* Better spacing between content */
   margin-block-start: var(--ptt-reset-header-space-top, 2em);
@@ -219,11 +219,11 @@
 }
 
 /* Exceptions */
-:where(ul, ol):not([role='list'], [class]) {
+:where(ul):not([role='list']) {
   padding-inline-start: 1.75ex;
   /* apply the role=list when styling with list-style=none */
 }
-:where(ol):not([role='list'], [class]) {
+:where(ol):not([role='list']) {
   padding-inline-start: 2.5ex;
   /* apply the role=list when styling with list-style=none */
 }
