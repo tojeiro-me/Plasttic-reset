@@ -117,11 +117,12 @@
   /* Better spacing between content */
   margin-block-end: var(--ptt-reset-header-space-bottom, 0.75em);
 }
-:where(h2, h3, h4) {
+:where(article h1, section h1),
+:where(article h1, h2, h3, h4) {
   /* Better spacing between content */
   margin-block-start: var(--ptt-reset-header-space-top, 2em);
 }
-:where(p, h5, h6, ul, ol, dl, form, blockquote, pre, figure, hr) {
+:where(p, h5, h6, ul, ol, dl, form, fieldset, pre, figure, hr) {
   /* Better spacing between content */
   margin-block-start: var(--ptt-reset-content-space-top, 0.5em);
 }
@@ -220,5 +221,9 @@
 /* Exceptions */
 :where(ul, ol):not([role='list'], [class]) {
   padding-inline-start: 1.75ex;
+  /* apply the role=list when styling with list-style=none */
+}
+:where(ol):not([role='list'], [class]) {
+  padding-inline-start: 2.5ex;
   /* apply the role=list when styling with list-style=none */
 }
