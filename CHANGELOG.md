@@ -1,6 +1,9 @@
-# v1.1.4 (Jun --, 2023)
+# v2.0.0 (Jun --, 2023)
 
-- Custom properties for content spacing
+- :warning: Major changes
+  - Spacing between elements
+  - Display block on iframe, embed, object
+  - Custom properties for content spacing
 
 ---
 
