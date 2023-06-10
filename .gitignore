@@ -19,5 +19,5 @@ tests/
 *-nogit.*
 
 # development folders
-test/
+**/sources/
 dev/

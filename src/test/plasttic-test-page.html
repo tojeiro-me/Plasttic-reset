@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/reset.css" />
     <style>
       /* test purpose only */
       body {
@@ -21,12 +22,13 @@
         margin-block-start: 2em;
       }
     </style>
-    <link rel="stylesheet" href="/src/reset.css" />
     <title>Plasttic CSS Reset: Demo</title>
   </head>
   <body>
     <main>
-      <h1>This a demo HTML5 page to demonstrate Plasttic Reset.</h1>
+      <header role="banner">
+        <h1>This a demo HTML5 page to demonstrate Plasttic Reset.</h1>
+      </header>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga corporis
         voluptatum, quidem inventore praesentium, optio ipsam eius quod
@@ -100,31 +102,35 @@
         <br />
         <label for="password">Password: </label>
         <input type="password" name="password" required /><br />
-        <input type="radio" id="user" name="user" value="User" checked />
-        <label for="user">User</label>
-        <input type="radio" id="admin" name="user" value="Admin" />
-        <label for="admin">Admin</label><br />
-        <label for="country">Continent: </label>
-        <select name="country" id="country">
-          <option>Select an option</option>
-          <option value="america">America</option>
-          <option value="europe">Europe</option>
-          <option value="asia">Asia</option></select
-        ><br />
-        <label for="message">Message:</label><br />
-        <textarea name="message" id="message" cols="30" rows="4"></textarea
-        ><br />
-        <input
-          type="checkbox"
-          id="newsletter"
-          name="newsletter"
-          value="Newsletter"
-        />
-        <label for="newsletter">Subscribe Newsletter</label><br />
-        <input type="file" id="myFile" name="filename" /><br />
-        <input type="submit" value="Submit" /><br />
-        <input type="button" value="Button" /><br />
-        <input type="button" value="Button Disabled" disabled />
+        <fieldset>
+          <input type="radio" id="user" name="user" value="User" checked />
+          <label for="user">User</label>
+          <input type="radio" id="admin" name="user" value="Admin" />
+          <label for="admin">Admin</label><br />
+          <label for="country">Continent: </label>
+          <select name="country" id="country">
+            <option>Select an option</option>
+            <option value="america">America</option>
+            <option value="europe">Europe</option>
+            <option value="asia">Asia</option></select
+          ><br />
+          <label for="message">Message:</label><br />
+          <textarea name="message" id="message" cols="30" rows="4"></textarea
+          ><br />
+          <input
+            type="checkbox"
+            id="newsletter"
+            name="newsletter"
+            value="Newsletter"
+          />
+          <label for="newsletter">Subscribe Newsletter</label><br />
+        </fieldset>
+        <fieldset>
+          <input type="file" id="myFile" name="filename" /><br />
+          <input type="submit" value="Submit" /><br />
+          <input type="button" value="Button" /><br />
+          <input type="button" value="Button Disabled" disabled />
+        </fieldset>
       </form>
       <p class="spacer"></p>
       <p>Preformated text:</p>

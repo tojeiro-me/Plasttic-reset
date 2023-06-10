@@ -1,10 +1,19 @@
-# v1.1.3 (Jun --, 2023)
+# v2.0.0 (Jun --, 2023)
 
-- Updated images
+- :warning: Major changes
+  - Spacing between elements
+  - Display block on iframe, embed, object
+  - Custom properties for content spacing
 
 ---
 
 # Releases:
+
+## v1.1.3 (Jun 08, 2023)
+
+- Updated images
+
+---
 
 ## v1.1.2 (Jun 08, 2023)
 

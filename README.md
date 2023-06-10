@@ -90,6 +90,11 @@ This properties can be changed globally - using the :root {} pseudo-class - or s
   --ptt-reset-h2-width: 35ch;
   --ptt-reset-h3-width: 45ch;
   --ptt-reset-h4-width: 55ch;
+
+  /* Better spacing between content */
+  --ptt-reset-content-space-top: 0.5em;
+  --ptt-reset-header-space-bottom: 1.25em; /* h1, h2, h3, h4 */
+  --ptt-reset-header-space-top: 2em; /* h2, h3, h4 */
 ```
 
 ---
