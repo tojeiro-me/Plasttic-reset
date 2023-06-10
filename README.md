@@ -10,7 +10,7 @@ A CSS Reset styling for browser consistency with best practices defaults.
 
 ## About
 
-Along with some good semantic HTML, Plasttic CSS Reset creates a clean and stripped foundation to develop an accessible, responsive and robust interface by applying your design system on a blank canvas.
+Plasttic CSS Reset creates a clean and stripped foundation to develop an accessible, responsive and robust interface by applying your design system on a blank canvas.
 
 - Removes browser inconsistencies.
 - Resets properties for easier and more predictable styling results.
