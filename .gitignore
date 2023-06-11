@@ -16,6 +16,7 @@ archive/
 tests/
 
 # private files
+**/NOTES.md
 *-nogit.*
 
 # development folders
