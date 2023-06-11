@@ -147,6 +147,7 @@
 :where(img, video) {
   /* Avoid distortion by filling the entire content box */
   object-fit: cover;
+  object-position: center;
 }
 :where(img, video, canvas, svg) {
   /* Set aspect-ratio based on specified sizes */
