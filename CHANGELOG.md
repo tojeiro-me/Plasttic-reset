@@ -1,4 +1,4 @@
-# v2.0.4 (Jun --, 2023)
+# v2.0.4 (Jun 12, 2023)
 
 - Added object-position: center on img and video
 
