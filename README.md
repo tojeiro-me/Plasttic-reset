@@ -92,7 +92,11 @@ input[type='file']::file-selector-button {
 
 ## Customize
 
-This properties can be changed globally - using the :root {} pseudo-class - or scoped - targeting the tag or class in which you want to override the default values.
+The typography default values are based on the W3C recommendations. However he fonts used and their sizes can have a considerable impact.
+
+The focus color is intended for users navigating using the keyboard or assistive technologies.
+
+This properties can be changed globally - using the :root pseudo-class - or scoped - targeting the tag or class in which you want to override the default values.
 
 ```CSS
   /* Focus style color */
@@ -112,6 +116,7 @@ This properties can be changed globally - using the :root {} pseudo-class - or s
   --ptt-reset-content-space-top: 0.5em;
   --ptt-reset-header-space-bottom: 0.75em; /* h1, h2, h3, h4 */
   --ptt-reset-header-space-top: 2em; /* h1, h2, h3, h4 */
+  /* h1: if not inside a header with role=banner */
 ```
 
 ---

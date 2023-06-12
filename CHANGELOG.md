@@ -1,10 +1,16 @@
-# v2.0.4 (Jun 12, 2023)
+# v2.0.5 (Jun 12, 2023)
 
-- Added object-position: center on img and video
+- Updated README
 
 ---
 
 # Releases:
+
+## v2.0.4 (Jun 12, 2023)
+
+- Added object-position: center on img and video
+
+---
 
 ## v2.0.3 (Jun 10, 2023)
 
