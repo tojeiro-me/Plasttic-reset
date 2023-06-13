@@ -1,6 +1,7 @@
 # v2.0.6 (Jun --, 2023)
 
 - Updated README
+- Github workflow: build
 
 ---
 
