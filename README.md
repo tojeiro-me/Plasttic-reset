@@ -4,7 +4,7 @@
 
 A CSS Reset styling for browser consistency with best practices defaults.
 
-[![npm](https://img.shields.io/npm/v/plasttic-reset.svg?style=flat&colorA=18181B&colorB=2D7786)](https://www.npmjs.com/package/plasttic-reset)&ensp;![npm](https://img.shields.io/npm/dm/plasttic-reset?style=flat&colorA=18181B&colorB=2D7786)&ensp;[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat&colorA=18181B&colorB=2D7786)](https://github.com/tojeiro-me/Plasttic-reset/blob/master/LICENSE)&emsp;[![Twitter Follow](https://img.shields.io/twitter/follow/Plasttic_Dev?style=social)](https://twitter.com/Plasttic_Dev)
+[![npm](https://img.shields.io/npm/v/plasttic-reset.svg?style=flat&colorA=18181B&colorB=2D7786)](https://www.npmjs.com/package/plasttic-reset)&ensp;![NPM Downloads](https://img.shields.io/npm/dt/plasttic-reset.svg?style=flat&colorA=18181B&colorB=2D7786)&ensp;[![LICENSE](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat&colorA=18181B&colorB=2D7786)](https://github.com/tojeiro-me/Plasttic-reset/blob/master/LICENSE)&emsp;[![Twitter Follow](https://img.shields.io/twitter/follow/Plasttic_Dev?style=social)](https://twitter.com/Plasttic_Dev)
 
 ---
 
