@@ -1,7 +1,7 @@
-/*! Plasttic CSS Reset | MIT License | https://plasttic.dev/ */
+/*! Plasttic CSS Reset v2.0.6 | MIT License | https://plasttic.dev/ */
 
 /**
-  * Plasttic CSS Reset v2.0.6
+  * Plasttic CSS Reset
   *
   * Styling for CSS cross-browser consistency,
   * resets for predicted styling results
@@ -222,9 +222,11 @@
 /* Exceptions */
 :where(ul):not([role='list']) {
   padding-inline-start: 1.75ex;
-  /* apply the role=list when styling with list-style=none */
+  /* Note: apply the role=list when styling with list-style=none
+  so it doesn't loose its semantic value on safari */
 }
 :where(ol):not([role='list']) {
   padding-inline-start: 2.5ex;
-  /* apply the role=list when styling with list-style=none */
+  /* Note: apply the role=list when styling with list-style=none
+  so it doesn't loose its semantic value on safari */
 }
