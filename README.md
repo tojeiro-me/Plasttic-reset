@@ -103,7 +103,7 @@ This properties can be changed globally - using the :root pseudo-class - or scop
   --ptt-reset-focus-color: hsl(26 86% 61%); /* replace with brand color, ... */
 
   /* The next properties best values depends on the font used */
-  --ptt-reset-body-line-height: 1.45; /* 1.3 to 1.6 */
+  --ptt-reset-body-line-height: 1.45; /* 1.4 to 1.6 */
   --ptt-reset-body-width: 65ch; /* 50ch to 80ch - h5, h6, p, li */
   --ptt-reset-body-spacing: 0.012em; /* letter spacing */
   --ptt-reset-header-line-height: 1.1; /* 1 to 1.2 - h1, h2, h3, h4 */
