@@ -121,6 +121,21 @@ This properties can be changed globally - using the :root pseudo-class - or scop
 
 ---
 
+## Notes
+
+- Apply the role=list when styling lists (ul/ol) with list-style=none
+  so it doesn't loose its semantic value on safari.
+
+  ```CSS
+  ul {
+    list-style: none;
+  }
+
+  <ul role="list">
+  ```
+
+---
+
 ## Developer
 
 1. Repository
@@ -142,19 +157,25 @@ This properties can be changed globally - using the :root pseudo-class - or scop
 - Clone repository
 
 ```
+
 git clone https://github.com/tojeiro-me/Plasttic-reset.git
+
 ```
 
 - Install dependencies
 
 ```
+
 npm install
+
 ```
 
 - Parse and Minimize source to dist (reset.min.css)
 
 ```
+
 npm run dist
+
 ```
 
 ---
@@ -185,3 +206,7 @@ _"Credit where credit is due!"_
 ---
 
 [![Plasttic](./.github/assets/repo-badge-50h.png)](https://github.com/tojeiro-me/Plasttic)
+
+```
+
+```
