@@ -159,12 +159,12 @@
 :where(input[type='file'])::-webkit-file-upload-button,
 :where(input)::file-selector-button {
   /* Apply document default typography styles */
+  padding: 0;
   color: inherit;
   background: transparent;
   border: 1px solid #000;
   font: inherit;
   letter-spacing: inherit;
-  padding: 0;
 }
 :where(input[type='file']) {
   /* Apply document default typography styles */
