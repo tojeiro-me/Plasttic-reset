@@ -4,6 +4,7 @@
 - Added Notes section in README
 - Github workflow: build
 - Comments update
+- PostCSS plugins update
 
 ---
 
