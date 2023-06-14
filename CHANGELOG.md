@@ -2,9 +2,10 @@
 
 - Updated README
 - Added Notes section in README
-- Github workflow: build
+- Github workflow actions: build
 - Comments update
 - PostCSS plugins update
+- Added Stylelint
 
 ---
 
