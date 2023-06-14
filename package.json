@@ -36,12 +36,14 @@
   },
   "config": {},
   "scripts": {
-    "dist": "postcss src/reset.css --no-map -o dist/reset.min.css"
+    "dist": "postcss src/reset.css --no-map -o dist/reset.min.css",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.1",
     "cssnano-preset-default": "^6.0.1",
+    "husky": "^8.0.3",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
     "postcss-preset-env": "^8.4.2",
