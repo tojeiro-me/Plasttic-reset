@@ -115,8 +115,8 @@ This properties can be changed globally - using the :root pseudo-class - or scop
   /* Better spacing between content */
   --ptt-reset-content-space-top: 0.5em;
   --ptt-reset-header-space-bottom: 0.75em; /* h1, h2, h3, h4 */
-  --ptt-reset-header-space-top: 2em; /* h1, h2, h3, h4 */
-  /* h1: if not inside a header with role=banner */
+  --ptt-reset-header-space-top: 2em;
+  /* h2, h3, h4, h1: if not inside a header with role=banner */
 ```
 
 ---
