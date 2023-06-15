@@ -6,6 +6,6 @@
   "*.mdx": ["prettier --write", "eslint"],
   "*.md": "prettier --write",
   "*.html": "prettier --write",
-  "*.css": "stylelint --write",
+  "*.css": ["prettier --write", "stylelint"],
   "*.json": "prettier --write"
 }
