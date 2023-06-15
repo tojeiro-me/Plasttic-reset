@@ -24,6 +24,9 @@
     "dist/reset.min.css",
     "src/reset.css",
     ".browserslistrc",
+    ".lintstagedrc.json",
+    ".prettierignore",
+    ".stylelintrc.json",
     "postcss.config.cjs",
     "CHANGELOG.md",
     "README.md",
@@ -53,5 +56,10 @@
     "stylelint": "^15.7.0",
     "stylelint-config-standard": "^33.0.0",
     "stylelint-order": "^6.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run dist"
+    }
   }
 }
