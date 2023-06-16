@@ -1,6 +1,6 @@
 {
   "name": "plasttic-reset",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Plasttic CSS Reset: A CSS Reset styling for browser consistency with best practices defaults",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic-reset",
@@ -36,14 +36,21 @@
   },
   "config": {},
   "scripts": {
-    "dist": "postcss src/reset.css --no-map -o dist/reset.min.css"
+    "dist": "postcss src/reset.css --no-map -o dist/reset.min.css",
+    "lint": "npx lint-staged"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "cssnano": "^6.0.1",
+    "cssnano-preset-default": "^6.0.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
-    "postcss-discard-empty": "^6.0.0",
-    "postcss-preset-env": "^8.4.2"
+    "postcss-preset-env": "^8.4.2",
+    "prettier": "^2.8.8",
+    "stylelint": "^15.7.0",
+    "stylelint-config-standard": "^33.0.0",
+    "stylelint-order": "^6.0.3"
   }
 }

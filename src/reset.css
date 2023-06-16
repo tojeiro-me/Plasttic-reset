@@ -1,7 +1,7 @@
-/*! Plasttic CSS Reset v2.0.5 | MIT License | https://plasttic.dev/ */
+/*! Plasttic CSS Reset v2.0.6 | MIT License | https://plasttic.dev/ */
 
 /**
-  * Plasttic CSS Reset v2.0.5
+  * Plasttic CSS Reset
   *
   * Styling for CSS cross-browser consistency,
   * resets for predicted styling results
@@ -129,7 +129,7 @@
 :where(h1, h2, h3, h4, h5, h6, p) {
   /* Text wrap */
   overflow-wrap: break-word;
-  text-wrap: balance; /* partial support only on Chrome 114 */
+  text-wrap: balance; /* no support on Firefox or Safari */
 }
 
 /* Media */
@@ -159,12 +159,12 @@
 :where(input[type='file'])::-webkit-file-upload-button,
 :where(input)::file-selector-button {
   /* Apply document default typography styles */
+  padding: 0;
   color: inherit;
   background: transparent;
   border: 1px solid #000;
   font: inherit;
   letter-spacing: inherit;
-  padding: 0;
 }
 :where(input[type='file']) {
   /* Apply document default typography styles */
@@ -222,9 +222,11 @@
 /* Exceptions */
 :where(ul):not([role='list']) {
   padding-inline-start: 1.75ex;
-  /* apply the role=list when styling with list-style=none */
+  /* Note: apply the role=list when styling with list-style=none
+  so it doesn't loose its semantic value on safari */
 }
 :where(ol):not([role='list']) {
   padding-inline-start: 2.5ex;
-  /* apply the role=list when styling with list-style=none */
+  /* Note: apply the role=list when styling with list-style=none
+  so it doesn't loose its semantic value on safari */
 }
