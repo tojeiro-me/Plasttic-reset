@@ -8,9 +8,6 @@
 # dependencies
 node_modules/
 
-# project
-.vscode/
-
 # private folders
 archive/
 tests/

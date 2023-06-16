@@ -1,3 +1,11 @@
+# v2.0.8 (Jun --, 2023)
+
+- Prettier config
+
+---
+
+# Releases:
+
 # v2.0.7 (Jun 16, 2023)
 
 - Removed stylelint (Prettier only)
@@ -5,8 +13,6 @@
 - Replaced action with Husky hook: build and lintstaged
 
 ---
-
-# Releases:
 
 ## v2.0.6 (Jun 16, 2023)
 
