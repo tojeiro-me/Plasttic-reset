@@ -5,7 +5,6 @@
 - Github workflow actions: build
 - Comments update
 - PostCSS plugins update
-- Added Stylelint
 
 ---
 
