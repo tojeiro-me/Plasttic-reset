@@ -6,7 +6,7 @@
 
 # Releases:
 
-# v2.0.7 (Jun 16, 2023)
+## v2.0.7 (Jun 16, 2023)
 
 - Removed stylelint (Prettier only)
 - Updated lintstaged config
