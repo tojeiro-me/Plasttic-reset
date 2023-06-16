@@ -1,4 +1,4 @@
-# v2.0.6 (Jun --, 2023)
+# v2.0.6 (Jun 26, 2023)
 
 - Updated README
 - Added Notes section in README
