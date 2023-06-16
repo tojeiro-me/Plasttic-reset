@@ -1,6 +1,6 @@
 {
   "name": "plasttic-reset",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Plasttic CSS Reset: A CSS Reset styling for browser consistency with best practices defaults",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic-reset",
@@ -48,9 +48,6 @@
     "postcss": "^8.4.24",
     "postcss-cli": "^10.1.0",
     "postcss-preset-env": "^8.4.2",
-    "prettier": "^2.8.8",
-    "stylelint": "^15.7.0",
-    "stylelint-config-standard": "^33.0.0",
-    "stylelint-order": "^6.0.3"
+    "prettier": "^2.8.8"
   }
 }
