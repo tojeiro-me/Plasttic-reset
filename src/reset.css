@@ -1,4 +1,4 @@
-/*! Plasttic CSS Reset v2.0.6 | MIT License | https://plasttic.dev/ */
+/*! Plasttic CSS Reset v2.0.7 | MIT License | https://plasttic.dev/ */
 
 /**
   * Plasttic CSS Reset
@@ -51,9 +51,9 @@
 }
 
 /* Cursor */
-:where(a[href], area, button, summary, [tabindex]:not([tabindex*='-'])),
+:where(a[href], area, button, summary, [tabindex]:not([tabindex*="-"])),
 :where(input, label[for], select, textarea),
-:where(input[type='file'])::-webkit-file-upload-button {
+:where(input[type="file"])::-webkit-file-upload-button {
   cursor: pointer;
 }
 :where(button, input, select, textarea)[disabled] {
@@ -72,7 +72,7 @@
   -webkit-text-size-adjust: none;
 }
 :where(body) {
-  font-family: system-ui, -apple-system, 'SF Pro', 'Segoe UI', Roboto, Ubuntu,
+  font-family: system-ui, -apple-system, "SF Pro", "Segoe UI", Roboto, Ubuntu,
     sans-serif;
   text-rendering: optimizeSpeed;
   /* Typography defaults for readability */
@@ -117,7 +117,7 @@
   /* Better spacing between content */
   margin-block-end: var(--ptt-reset-header-space-bottom, 0.75em);
 }
-:where(article h1, header:not([role='banner']) > h1),
+:where(article h1, header:not([role="banner"]) > h1),
 :where(h2, h3, h4) {
   /* Better spacing between content */
   margin-block-start: var(--ptt-reset-header-space-top, 2em);
@@ -156,7 +156,7 @@
 
 /* Forms */
 :where(button, input, select, textarea),
-:where(input[type='file'])::-webkit-file-upload-button,
+:where(input[type="file"])::-webkit-file-upload-button,
 :where(input)::file-selector-button {
   /* Apply document default typography styles */
   padding: 0;
@@ -166,7 +166,7 @@
   font: inherit;
   letter-spacing: inherit;
 }
-:where(input[type='file']) {
+:where(input[type="file"]) {
   /* Apply document default typography styles */
   border: none;
 }
@@ -174,8 +174,8 @@
 /* Code */
 :where(pre, code, kbd, samp) {
   font: inherit;
-  font-family: ui-monospace, 'SF Mono', 'Segoe UI Mono', 'Roboto Mono',
-    'Ubuntu Mono', 'DejaVu Sans Mono', Monaco, Consolas, monospace;
+  font-family: ui-monospace, "SF Mono", "Segoe UI Mono", "Roboto Mono",
+    "Ubuntu Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
 }
 :where(pre) {
   max-inline-size: max-content;
@@ -193,9 +193,9 @@
     button,
     textarea,
     select,
-    [tabindex]:not([tabindex*='-'])
+    [tabindex]:not([tabindex*="-"])
   ):focus-visible,
-:where(input[type='file'])::-webkit-file-upload-button:focus-visible,
+:where(input[type="file"])::-webkit-file-upload-button:focus-visible,
 :where(input)::file-selector-button:focus-visible {
   outline: 1px solid hsl(0 0% 100%);
   outline-offset: 2px;
@@ -220,12 +220,12 @@
 }
 
 /* Exceptions */
-:where(ul):not([role='list']) {
+:where(ul):not([role="list"]) {
   padding-inline-start: 1.75ex;
   /* Note: apply the role=list when styling with list-style=none
   so it doesn't loose its semantic value on safari */
 }
-:where(ol):not([role='list']) {
+:where(ol):not([role="list"]) {
   padding-inline-start: 2.5ex;
   /* Note: apply the role=list when styling with list-style=none
   so it doesn't loose its semantic value on safari */
