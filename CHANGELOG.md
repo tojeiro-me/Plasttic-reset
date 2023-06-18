@@ -1,11 +1,17 @@
-# v2.0.8 (Jun 18, 2023)
+# v2.0.9 (Jun 19, 2023)
 
 - Prettier config
 - Dependencies update
+- Updated lintstaged config
 
 ---
 
 # Releases:
+
+## v2.0.8 (Jun 18, 2023) - Unpublished
+
+- Prettier config
+- Dependencies update
 
 ## v2.0.7 (Jun 16, 2023)
 
