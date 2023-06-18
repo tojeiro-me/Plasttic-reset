@@ -1,8 +1,7 @@
 # v2.0.9 (Jun 19, 2023)
 
-- Prettier config
-- Dependencies update
 - Updated lintstaged config
+- Updated Husky hook
 
 ---
 
