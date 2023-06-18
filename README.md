@@ -28,15 +28,13 @@ Plasttic CSS Reset creates a clean and stripped foundation to develop an accessi
 
 ## Start
 
-### From CDN (no installation)
-
-1. In the HTML page
+### From CDN (HTML page)
 
 ```HTML
   <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2.0" />
 ```
 
-2. In the CSS file
+### From CDN (CSS file)
 
 ```CSS
 @import "https://unpkg.com/plasttic-reset@2.0";
@@ -50,7 +48,7 @@ Plasttic CSS Reset creates a clean and stripped foundation to develop an accessi
 npm i plasttic-reset
 ```
 
-2. In the CSS file
+2. Import in the CSS file
 
 ```CSS
 @import "plasttic-reset";
