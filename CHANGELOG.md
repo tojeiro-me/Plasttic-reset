@@ -1,6 +1,7 @@
-# v2.0.8 (Jun --, 2023)
+# v2.0.8 (Jun 18, 2023)
 
 - Prettier config
+- Dependencies update
 
 ---
 
