@@ -1,11 +1,17 @@
-# v2.0.9 (Jun 19, 2023)
+# v2.0.10 (Jun --, 2023)
+
+- ...
+
+---
+
+# Releases:
+
+## v2.0.9 (Jun 19, 2023)
 
 - Updated lintstaged config
 - Updated Husky hook
 
 ---
-
-# Releases:
 
 ## v2.0.8 (Jun 18, 2023) - Unpublished
 
