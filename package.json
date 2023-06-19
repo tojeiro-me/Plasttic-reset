@@ -36,8 +36,8 @@
   },
   "config": {},
   "scripts": {
-    "dist": "postcss src/reset.css --no-map -o dist/reset.min.css",
-    "lint": "npx lint-staged"
+    "commit:dist": "postcss src/reset.css --no-map -o dist/reset.min.css",
+    "commit:lint": "npx lint-staged"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
