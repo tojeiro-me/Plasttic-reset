@@ -31,16 +31,18 @@ Plasttic CSS Reset creates a clean and stripped foundation to develop an accessi
 ### From CDN (HTML page)
 
 ```HTML
-  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2.0" />
+  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2.1" />
 ```
 
 ### From CDN (CSS file)
 
 ```CSS
-@import "https://unpkg.com/plasttic-reset@2.0";
+@import "https://unpkg.com/plasttic-reset@2.1";
 ```
 
 ### Installation
+
+:warning: **NOTE: Installing is not recommended for production. Properties can be added or modified in later versions. If you update the project dependencies, the new version can break your layout.**
 
 1. Install package
 

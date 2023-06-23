@@ -1,4 +1,4 @@
-/*! Plasttic CSS Reset v2.0.10 | MIT License | https://plasttic.dev/ */
+/*! Plasttic CSS Reset v2.1.0 | MIT License | https://plasttic.dev/ */
 
 /**
   * Plasttic CSS Reset
@@ -22,8 +22,8 @@
 
 /* Global */
 *,
-:before,
-:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 * {
