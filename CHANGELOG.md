@@ -1,6 +1,6 @@
 # v2.1.0 (Jun --, 2023)
 
-- ..
+- Fixed: lint script (empty commit error)
 
 ---
 
