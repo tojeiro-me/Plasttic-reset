@@ -75,6 +75,39 @@ Check the [CHANGELOG](CHANGELOG.md) for version changes.
 
 ---
 
+## Customize
+
+The typography default values are based on the W3C recommendations. However he fonts used and their sizes can have a considerable impact.
+
+The focus color is intended for users navigating using the keyboard or assistive technologies.
+
+This properties can be changed globally - using the `:root` pseudo-class - or `scoped` - inside the tag or class in which you want to override the default values.
+
+```CSS
+  :root {
+      /* Focus style color */
+      --ptt-reset-focus-color: hsl(26 86% 61%); /* replace with brand color, ... */
+
+      /* The next properties best values depends on the font used */
+      --ptt-reset-body-line-height: 1.45; /* 1.4 to 1.6 */
+      --ptt-reset-body-width: 65ch; /* 50ch to 80ch - h5, h6, p, li */
+      --ptt-reset-body-spacing: 0.012em; /* letter spacing */
+      --ptt-reset-header-line-height: 1.1; /* 1 to 1.2 - h1, h2, h3, h4 */
+      --ptt-reset-h1-width: 30ch;
+      --ptt-reset-h2-width: 35ch;
+      --ptt-reset-h3-width: 45ch;
+      --ptt-reset-h4-width: 55ch;
+
+      /* Better spacing between content */
+      --ptt-reset-content-space-top: 0.5em;
+      --ptt-reset-header-space-bottom: 0.75em; /* h1, h2, h3, h4 */
+      --ptt-reset-header-space-top: 2em;
+      /* h2, h3, h4, h1: if not inside a header with role=banner */
+  }
+```
+
+---
+
 ## Notes
 
 ### Styling file upload button
@@ -86,51 +119,17 @@ input[type='file']::file-selector-button {
 }
 ```
 
----
+### Lists
 
-## Customize
-
-The typography default values are based on the W3C recommendations. However he fonts used and their sizes can have a considerable impact.
-
-The focus color is intended for users navigating using the keyboard or assistive technologies.
-
-This properties can be changed globally - using the `:root` pseudo-class - or `scoped` - inside the tag or class in which you want to override the default values.
+Apply the role=list when styling lists (ul/ol) with list-style=none so it doesn't loose its semantic value on safari.
 
 ```CSS
-  /* Focus style color */
-  --ptt-reset-focus-color: hsl(26 86% 61%); /* replace with brand color, ... */
+ul {
+  list-style: none;
+}
 
-  /* The next properties best values depends on the font used */
-  --ptt-reset-body-line-height: 1.45; /* 1.4 to 1.6 */
-  --ptt-reset-body-width: 65ch; /* 50ch to 80ch - h5, h6, p, li */
-  --ptt-reset-body-spacing: 0.012em; /* letter spacing */
-  --ptt-reset-header-line-height: 1.1; /* 1 to 1.2 - h1, h2, h3, h4 */
-  --ptt-reset-h1-width: 30ch;
-  --ptt-reset-h2-width: 35ch;
-  --ptt-reset-h3-width: 45ch;
-  --ptt-reset-h4-width: 55ch;
-
-  /* Better spacing between content */
-  --ptt-reset-content-space-top: 0.5em;
-  --ptt-reset-header-space-bottom: 0.75em; /* h1, h2, h3, h4 */
-  --ptt-reset-header-space-top: 2em;
-  /* h2, h3, h4, h1: if not inside a header with role=banner */
+<ul role="list">
 ```
-
----
-
-## Notes
-
-- Apply the role=list when styling lists (ul/ol) with list-style=none
-  so it doesn't loose its semantic value on safari.
-
-  ```CSS
-  ul {
-    list-style: none;
-  }
-
-  <ul role="list">
-  ```
 
 ---
 

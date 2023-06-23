@@ -1,7 +1,8 @@
-# v2.0.10 (Jun --, 2023)
+# v2.0.10 (Jun 23, 2023)
 
-- Updated lint/dist script names
-- Updated Husky hook
+- :warning: Update: lint/dist script names
+- Update: Husky hook
+- Update: README
 
 ---
 
