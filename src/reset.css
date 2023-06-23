@@ -149,10 +149,6 @@
   object-fit: cover;
   object-position: center;
 }
-:where(img, video, canvas, svg) {
-  /* Set aspect-ratio based on specified sizes */
-  aspect-ratio: attr(width) / attr(height); /* May 2023: not yet supported */
-}
 
 /* Forms */
 :where(button, input, select, textarea),
