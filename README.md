@@ -42,6 +42,8 @@ Plasttic CSS Reset creates a clean and stripped foundation to develop an accessi
 
 ### Installation
 
+:warning: **NOTE: Installing is not recommended for production. Properties can be added or modified in later versions. If you update the project dependencies, the new version can break your layout.**
+
 1. Install package
 
 ```
