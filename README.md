@@ -94,7 +94,7 @@ The typography default values are based on the W3C recommendations. However he f
 
 The focus color is intended for users navigating using the keyboard or assistive technologies.
 
-This properties can be changed globally - using the :root pseudo-class - or scoped - targeting the tag or class in which you want to override the default values.
+This properties can be changed globally - using the `:root` pseudo-class - or `scoped` - inside the tag or class in which you want to override the default values.
 
 ```CSS
   /* Focus style color */
