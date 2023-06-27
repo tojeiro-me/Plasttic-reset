@@ -2,6 +2,7 @@
 
 - Fixed: lint script (empty commit error)
 - Updated: Dependencies
+- Updated: Linted with Stylelint
 
 ---
 
