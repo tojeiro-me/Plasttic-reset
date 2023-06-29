@@ -1,5 +1,7 @@
 /*! Plasttic CSS Reset v2.1.0 | MIT License | https://plasttic.dev/ */
 
+/* stylelint-disable declaration-no-important */
+
 /**
   * Plasttic CSS Reset
   *
@@ -21,11 +23,13 @@
   */
 
 /* Global */
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
 * {
   /* Remove default margin and padding globally */
   margin: 0;
@@ -34,15 +38,18 @@
   text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.25ex;
 }
+
 :where(iframe, embed, object) {
   display: block;
 }
 
 /* Document */
+
 :where(html) {
   /* Scroll preference */
   scroll-behavior: smooth;
 }
+
 :where(html, body) {
   /* Viewport height units (vh/svh/dvh/lvh) are set on the layout sections */
   height: 100%;
@@ -51,99 +58,117 @@
 }
 
 /* Cursor */
+
 :where(a[href], area, button, summary, [tabindex]:not([tabindex*="-"])),
 :where(input, label[for], select, textarea),
 :where(input[type="file"])::-webkit-file-upload-button {
   cursor: pointer;
 }
+
 :where(button, input, select, textarea)[disabled] {
   cursor: no-drop;
 }
+
 :where(abbr) {
-  cursor: help;
   text-decoration-line: underline;
   text-decoration-style: dotted;
+  cursor: help;
 }
 
 /* Typography */
+
 :where(html) {
   /* Avoid text inflation on mobile screens */
-  text-size-adjust: none;
   -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
+
 :where(body) {
   font-family: system-ui, -apple-system, "SF Pro", "Segoe UI", Roboto, Ubuntu,
     sans-serif;
-  text-rendering: optimizeSpeed;
+  text-rendering: optimizespeed;
   /* Typography defaults for readability */
   line-height: var(--ptt-reset-body-line-height, 1.45);
   letter-spacing: var(--ptt-reset-body-spacing, 0.012em);
   word-spacing: 0.016em;
 }
+
 :where(h1, h2, h3, h4) {
   /* Bigger headings typography defaults for readability */
   line-height: var(--ptt-reset-header-line-height, 1.1);
   word-spacing: 0.015em;
 }
+
 :where(h1) {
-  /* Bigger font size */
-  font-size: 2.5rem;
   /* Prevent long lines */
   max-inline-size: var(--ptt-reset-h2-width, 25ch);
-}
-:where(h2) {
   /* Bigger font size */
-  font-size: 2rem;
+  font-size: 2.5rem;
+}
+
+:where(h2) {
   /* Prevent long lines */
   max-inline-size: var(--ptt-reset-h2-width, 30ch);
-}
-:where(h3) {
   /* Bigger font size */
-  font-size: 1.5rem;
+  font-size: 2rem;
+}
+
+:where(h3) {
   /* Prevent long lines */
   max-inline-size: var(--ptt-reset-h3-width, 35ch);
-}
-:where(h4) {
   /* Bigger font size */
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+
+:where(h4) {
   /* Prevent long lines */
   max-inline-size: var(--ptt-reset-h4-width, 55ch);
+  /* Bigger font size */
+  font-size: 1rem;
 }
+
 :where(h5, h6, p, li) {
   /* Prevent long lines for readability */
   max-inline-size: var(--ptt-reset-hpli-width, 65ch);
 }
+
 :where(h1, h2, h3, h4) {
   /* Better spacing between content */
   margin-block-end: var(--ptt-reset-header-space-bottom, 0.75em);
 }
+
 :where(article h1, header:not([role="banner"]) > h1),
 :where(h2, h3, h4) {
   /* Better spacing between content */
   margin-block-start: var(--ptt-reset-header-space-top, 2em);
 }
+
 :where(p, h5, h6, ul, ol, dl, form, fieldset, pre, figure, hr) {
   /* Better spacing between content */
   margin-block-start: var(--ptt-reset-content-space-top, 0.5em);
 }
+
 :where(h1, h2, h3, h4, h5, h6, p) {
   /* Text wrap */
-  overflow-wrap: break-word;
   text-wrap: balance; /* no support on Firefox or Safari */
+  overflow-wrap: break-word;
 }
 
 /* Media */
+
 :where(img, svg, video, audio, picture, canvas) {
   /* Make media easier to work with */
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 :where(img, svg, video) {
   /* Default sizing */
   max-width: 100%;
   height: auto;
 }
+
 :where(img, video) {
   /* Avoid distortion by filling the entire content box */
   object-fit: cover;
@@ -151,38 +176,44 @@
 }
 
 /* Forms */
+
 :where(button, input, select, textarea),
 :where(input[type="file"])::-webkit-file-upload-button,
 :where(input)::file-selector-button {
   /* Apply document default typography styles */
   padding: 0;
-  color: inherit;
   background: transparent;
-  border: 1px solid #000;
+  border: 1px solid #000000;
+  color: inherit;
   font: inherit;
   letter-spacing: inherit;
 }
+
 :where(input[type="file"]) {
   /* Apply document default typography styles */
   border: none;
 }
 
 /* Code */
+
 :where(pre, code, kbd, samp) {
   font: inherit;
   font-family: ui-monospace, "SF Mono", "Segoe UI Mono", "Roboto Mono",
     "Ubuntu Mono", "DejaVu Sans Mono", Monaco, Consolas, monospace;
 }
+
 :where(pre) {
   max-inline-size: max-content;
   white-space: pre;
   writing-mode: lr;
 }
+
 :where(code) {
   writing-mode: lr;
 }
 
 /* Focus */
+
 :where(
     a[href],
     input,
@@ -193,34 +224,38 @@
   ):focus-visible,
 :where(input[type="file"])::-webkit-file-upload-button:focus-visible,
 :where(input)::file-selector-button:focus-visible {
+  border-radius: 1px;
   outline: 1px solid hsl(0 0% 100%);
   outline-offset: 2px;
   box-shadow: 0 0 0 2px var(--ptt-reset-focus-color, hsl(26 86% 61%));
-  border-radius: 1px;
 }
 
 /* Animation */
 @media (prefers-reduced-motion: reduce) {
   /* Remove animations and transitions when motion preference set to reduce */
+
   :where(html) {
     scroll-behavior: auto;
   }
+
   *,
   :before,
   :after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
   }
 }
 
 /* Exceptions */
+
 :where(ul):not([role="list"]) {
   padding-inline-start: 1.75ex;
   /* Note: apply the role=list when styling with list-style=none
   so it doesn't loose its semantic value on safari */
 }
+
 :where(ol):not([role="list"]) {
   padding-inline-start: 2.5ex;
   /* Note: apply the role=list when styling with list-style=none
