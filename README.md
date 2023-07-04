@@ -88,7 +88,7 @@ This properties can be changed globally - using the `:root` pseudo-class - or `s
 ```CSS
   :root {
       /* Focus style color */
-      --ptt-reset-focus-color: hsl(26 86% 61%); /* replace with brand color, ... */
+      --ptt-reset-focus-color: hsl(26 86% 61%); /* replace with brand/accent color, ... */
 
       /* The next properties best values depends on the font used */
       --ptt-reset-body-line-height: 1.45; /* 1.4 to 1.6 */
@@ -103,8 +103,7 @@ This properties can be changed globally - using the `:root` pseudo-class - or `s
       /* Better spacing between content */
       --ptt-reset-content-space-top: 0.5em;
       --ptt-reset-header-space-bottom: 0.75em; /* h1, h2, h3, h4 */
-      --ptt-reset-header-space-top: 2em;
-      /* h2, h3, h4, h1: if not inside a header with role=banner */
+      --ptt-reset-header-space-top: 2em; /* h2, h3, h4 -- h1: not inside header with role=banner */
   }
 ```
 
