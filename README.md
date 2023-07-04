@@ -31,13 +31,13 @@ Plasttic CSS Reset creates a clean and stripped foundation to develop an accessi
 ### From CDN (HTML page)
 
 ```HTML
-  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2.1" />
+  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@3.0@" />
 ```
 
 ### From CDN (CSS file)
 
 ```CSS
-@import "https://unpkg.com/plasttic-reset@2.1";
+@import "https://unpkg.com/plasttic-reset@3.0";
 ```
 
 ### Installation
