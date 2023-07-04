@@ -186,6 +186,8 @@ Inspired by the work of:
 - https://www.joshwcomeau.com/css/custom-css-reset/
 - Adam Argyle @argyleink
 - https://codepen.io/argyleink/pen/KKvRORE
+- Ahmad Shadeed @shadeed9
+- https://defensivecss.dev/
 
 _"Credit where credit is due!"_
 
