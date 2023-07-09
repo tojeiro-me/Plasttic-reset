@@ -45,7 +45,7 @@
     "cssnano-preset-default": "^6.0.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
-    "postcss": "^8.4.24",
+    "postcss": "^8.4.25",
     "postcss-cli": "^10.1.0",
     "postcss-preset-env": "^8.5.1",
     "prettier": "^2.8.8"
