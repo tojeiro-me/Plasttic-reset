@@ -3,7 +3,7 @@
 /* stylelint-disable declaration-no-important */
 
 /**
-  * Plasttic CSS Reset
+  * Plasttic CSS Reset - Dark Theme
   *
   * Styling for CSS cross-browser consistency,
   * resets for predicted styling results
@@ -20,7 +20,6 @@
   * Focus
   * Animation
   * Exceptions
-  * Dark theme
   */
 
 /* Global */
@@ -267,16 +266,4 @@
   padding-inline-start: 2.5ex;
   /* Note: apply the role=list when styling with list-style=none
   so it doesn't loose its semantic value on safari */
-}
-
-/* Dark theme */
-
-@media (prefers-color-scheme: dark) {
-  :where(
-      textarea,
-      select,
-      input:not([type="button"], [type="submit"], [type="reset"])
-    ) {
-    background-color: #171a1c;
-  }
 }
