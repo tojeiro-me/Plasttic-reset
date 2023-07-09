@@ -1,12 +1,18 @@
-# v2.1.0 (Jul 04, 2023)
+# v3.0.0 (Jul --, 2023)
+
+- ...
+
+---
+
+# Releases:
+
+## v2.1.0 (Jul 04, 2023)
 
 - Fixed: lint script (empty commit error)
 - Updated: Dependencies
 - Updated: Linted with Stylelint
 
 ---
-
-# Releases:
 
 ## v2.0.10 (Jun 23, 2023)
 

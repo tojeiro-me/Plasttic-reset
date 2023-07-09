@@ -31,13 +31,13 @@ Plasttic CSS Reset creates a clean and stripped foundation to develop an accessi
 ### From CDN (HTML page)
 
 ```HTML
-  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@2.1" />
+  <link rel="stylesheet" href="https://unpkg.com/plasttic-reset@3.0@" />
 ```
 
 ### From CDN (CSS file)
 
 ```CSS
-@import "https://unpkg.com/plasttic-reset@2.1";
+@import "https://unpkg.com/plasttic-reset@3.0";
 ```
 
 ### Installation
@@ -186,6 +186,8 @@ Inspired by the work of:
 - https://www.joshwcomeau.com/css/custom-css-reset/
 - Adam Argyle @argyleink
 - https://codepen.io/argyleink/pen/KKvRORE
+- Ahmad Shadeed @shadeed9
+- https://defensivecss.dev/
 
 _"Credit where credit is due!"_
 
