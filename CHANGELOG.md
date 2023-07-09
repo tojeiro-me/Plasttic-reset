@@ -1,6 +1,7 @@
 # v3.0.0 (Jul --, 2023)
 
-- ...
+- Updated: dependencies
+- Updated: renamed reset.css v2.1 to reset-base.css
 
 ---
 
