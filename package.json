@@ -36,7 +36,7 @@
   },
   "config": {},
   "scripts": {
-    "commit:dist": "postcss src/reset.css --no-map -o dist/reset.min.css && postcss src/reset.base.css --no-map -o dist/reset.base.min.css",
+    "commit:dist": "postcss src/reset.css --no-map -o dist/reset.min.css",
     "commit:lint": "npx lint-staged --allow-empty"
   },
   "devDependencies": {

@@ -1,7 +1,12 @@
-# v3.0.0 (Jul --, 2023)
+# v3.0.0 (Feb --, 2024)
 
 - Updated: dependencies
-- Updated: renamed reset.css v2.1 to reset-base.css
+- :warning: Removed: overflow-x: hidden in html, body
+- Added: text-wrap: pretty in paragraphs and list items (Chrome and Firefox)
+- Added: custom properties to customize some of the values
+- Updated: scroll values
+- Updated: comments
+- Added: hanging-punctuation property (Safari only)
 
 ---
 
