@@ -143,7 +143,7 @@
 
 :where(h5, h6, p, li) {
   /* Prevent long lines for readability */
-  max-inline-size: var(--ptt-reset-hpli-width, 65ch);
+  max-inline-size: var(--ptt-reset-body-width, 65ch);
 }
 
 :where(h1, h2, h3, h4) {
@@ -302,7 +302,7 @@
   /* Better text readability */
   /* This properties best values depend on the font used */
   --ptt-reset-body-line-height: 1.45; /* 1.4 to 1.6 */
-  --ptt-reset-body-width: 65ch; /* 50ch to 80ch - h5, h6, p, li */
+  --ptt-reset-body-width: 65ch; /* 50ch to 80ch - p, li, h5, h6 */
   --ptt-reset-body-spacing: 0.012em; /* letter spacing */
   /* Headers exceptions */
   --ptt-reset-header-line-height: 1.1; /* 1 to 1.2 - h1, h2, h3, h4 */
