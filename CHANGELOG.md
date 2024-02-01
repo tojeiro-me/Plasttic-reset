@@ -3,7 +3,7 @@
 - Updated: dependencies
 - :warning: Removed: overflow-x: hidden in html, body
 - Added: text-wrap: pretty in paragraphs and list items (Chrome and Firefox)
-- Added: custom properties to customize some of the values
+- :warning: Updated: custom properties to override some default values
 - Updated: scroll values
 - Updated: comments
 - Added: hanging-punctuation property (Safari only)
