@@ -1,7 +1,5 @@
 /*! Plasttic CSS Reset v3.0.0 | MIT License | https://plasttic.dev/ */
 
-/* stylelint-disable declaration-no-important */
-
 /**
   * Plasttic CSS Reset
   *
@@ -21,6 +19,7 @@
   * Animation
   * Exceptions
   * Dark theme
+  * Customize
   */
 
 /* Global */
@@ -35,7 +34,7 @@
   /* Remove default margin and padding globally */
   margin: 0;
   padding: 0;
-  /* Default styling for items with text decoration */
+  /* Styling for underline text */
   text-decoration-thickness: 0.2ex;
   text-underline-offset: 0.25ex;
 }
@@ -46,16 +45,22 @@
 
 /* Document */
 
+@media (prefers-reduced-motion: no-preference) {
+  :where(html),
+  :where(:has(:target)) {
+    /* Scroll preference */
+    scroll-behavior: smooth;
+  }
+}
+
 :where(html) {
-  /* Scroll preference */
-  scroll-behavior: smooth;
+  /* Scroll top spacing */
+  scroll-padding-top: var(--ptt-reset-scroll-padding, 2em);
 }
 
 :where(html, body) {
   /* Viewport height units (vh/svh/dvh/lvh) are set on the layout sections */
   height: 100%;
-  /* Prevent horizontal overflow */
-  overflow-x: hidden;
 }
 
 /* Cursor */
@@ -82,6 +87,8 @@
   /* Avoid text inflation on mobile screens */
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
+  /* Punctuation alignment (Safari only) */
+  hanging-punctuation: first last;
 }
 
 :where(body) {
@@ -136,7 +143,7 @@
 
 :where(h5, h6, p, li) {
   /* Prevent long lines for readability */
-  max-inline-size: var(--ptt-reset-hpli-width, 65ch);
+  max-inline-size: var(--ptt-reset-body-width, 65ch);
 }
 
 :where(h1, h2, h3, h4) {
@@ -146,7 +153,7 @@
 
 :where(article h1, header:not([role="banner"]) > h1),
 :where(h2, h3, h4) {
-  /* Better spacing between content */
+  /* Better spacing between lines */
   margin-block-start: var(--ptt-reset-header-space-top, 2em);
 }
 
@@ -155,9 +162,15 @@
   margin-block-start: var(--ptt-reset-content-space-top, 0.5em);
 }
 
-:where(h1, h2, h3, h4, h5, h6, p) {
+:where(h1, h2, h3, h4, h5, h6) {
   /* Text wrap */
-  text-wrap: balance; /* no support on Firefox or Safari */
+  text-wrap: balance;
+  overflow-wrap: break-word;
+}
+
+:where(p, li) {
+  /* Text wrap */
+  text-wrap: pretty;
   overflow-wrap: break-word;
 }
 
@@ -238,13 +251,9 @@
 }
 
 /* Animation */
+
 @media (prefers-reduced-motion: reduce) {
-  /* Remove animations and transitions when motion preference set to reduce */
-
-  :where(html) {
-    scroll-behavior: auto;
-  }
-
+  /* Accessibility: Remove animations and transitions when motion preference set to reduce */
   *,
   :before,
   :after {
@@ -279,4 +288,31 @@
     ) {
     background-color: #171a1c;
   }
+}
+
+/* Customize: Available properties to customize the reset defaults */
+
+:root {
+  /* Focus style color: Use brand color or complementary */
+  --ptt-reset-focus-color: hsl(26 86% 61%);
+
+  /* Top padding when using links to scrolling down */
+  --ptt-reset-scroll-padding: 2em;
+
+  /* Better text readability */
+  /* This properties best values depend on the font used */
+  --ptt-reset-body-line-height: 1.45; /* 1.4 to 1.6 */
+  --ptt-reset-body-width: 65ch; /* 50ch to 80ch - p, li, h5, h6 */
+  --ptt-reset-body-spacing: 0.012em; /* letter spacing */
+  /* Headers exceptions */
+  --ptt-reset-header-line-height: 1.1; /* 1 to 1.2 - h1, h2, h3, h4 */
+  --ptt-reset-h1-width: 30ch;
+  --ptt-reset-h2-width: 35ch;
+  --ptt-reset-h3-width: 45ch;
+  --ptt-reset-h4-width: 55ch;
+
+  /* Better spacing between content */
+  --ptt-reset-content-space-top: 0.5em;
+  --ptt-reset-header-space-bottom: 0.75em; /* h1, h2, h3, h4 */
+  --ptt-reset-header-space-top: 2em; /* h1: if not inside a header with role=banner */
 }

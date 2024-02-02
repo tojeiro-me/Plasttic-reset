@@ -1,6 +1,6 @@
 {
   "name": "plasttic-reset",
-  "version": "3.0.0",
+  "version": "3.0.0-beta.0",
   "description": "Plasttic CSS Reset: A CSS Reset styling for browser consistency with best practices defaults",
   "author": "Goncalo Tojeiro <dev@tojeiro.me> (https://tojeiro.me)",
   "homepage": "https://github.com/tojeiro-me/Plasttic-reset",
@@ -36,7 +36,7 @@
   },
   "config": {},
   "scripts": {
-    "commit:dist": "postcss src/reset.css --no-map -o dist/reset.min.css && postcss src/reset.base.css --no-map -o dist/reset.base.min.css",
+    "commit:dist": "postcss src/reset.css --no-map -o dist/reset.min.css",
     "commit:lint": "npx lint-staged --allow-empty"
   },
   "devDependencies": {
