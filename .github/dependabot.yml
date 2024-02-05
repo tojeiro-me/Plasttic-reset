@@ -13,10 +13,14 @@ updates:
     schedule:
       # Check for npm updates on Sundays
       interval: 'daily'
+      timezone: 'Europe/Lisbon'
+      time: '21:00'
     # Raise pull requests for version updates
     # against the `develop` branch
     target-branch: 'develop'
-    # Labels on pull requests for version updates only
+    # Specify labels for npm pull requests
+    labels:
+      - 'dependencies'
     versioning-strategy: increase
 
   # Maintain dependencies for GitHub Actions
@@ -27,4 +31,4 @@ updates:
       interval: 'weekly'
       timezone: 'Europe/Lisbon'
       day: 'sunday'
-      time: '20:00'
+      time: '23:00'
