@@ -195,7 +195,7 @@ _"Credit where credit is due!"_
 
 ---
 
-[![Twitter](./.github/assets/twitter.svg)](https://twitter.com/tojeiro_me)&emsp;[![Mastodon](./.github/assets/mastodon.svg)](https://mastodon.social/@plasttic)&emsp;[![Github](./.github/assets/github.svg)](https://github.com/tojeiro_me)
+[![Twitter](./.github/assets/twitter.svg)](https://twitter.com/tojeiro_me)&emsp;[![Mastodon](./.github/assets/mastodon.svg)](https://mastodon.social/@tojeiro_me)&emsp;[![Github](./.github/assets/github.svg)](https://github.com/tojeiro_me)
 
 ---
 
