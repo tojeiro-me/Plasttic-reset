@@ -1,4 +1,4 @@
-# v3.0.0 (Feb --, 2024)
+# v3.0.0-alpha.0 (Feb --, 2024)
 
 - Updated: dependencies
 - :warning: Removed: overflow-x: hidden in html, body
