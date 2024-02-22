@@ -42,7 +42,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.17",
     "cssnano": "^6.0.3",
-    "cssnano-preset-default": "^6.0.3",
+    "cssnano-preset-default": "^6.0.4",
     "husky": "^9.0.9",
     "lint-staged": "^15.2.1",
     "postcss": "^8.4.33",
