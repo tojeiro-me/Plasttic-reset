@@ -1,12 +1,15 @@
-# v3.0.0-alpha.0 (Feb --, 2024)
+# v3.0.0-alpha.1 (Feb --, 2024)
 
 - Updated: dependencies
-- :warning: Removed: overflow-x: hidden in html, body
+- :warning: Removed: overflow-x: hidden in html, body (use overflow-x: clip on the container)
 - Added: text-wrap: pretty in paragraphs and list items (Chrome and Firefox)
 - :warning: Updated: custom properties to override some default values
 - Updated: scroll values
 - Updated: comments
 - Added: hanging-punctuation property (Safari only)
+- Added: List styling section
+- Added: list-style: none on lists with role=list
+- Added: list styling custom properties
 
 ---
 

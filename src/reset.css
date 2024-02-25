@@ -12,13 +12,12 @@
   * Document
   * Cursor
   * Typography
+  * Lists
   * Media
   * Forms
   * Code
   * Focus
   * Animation
-  * Exceptions
-  * Dark theme
   * Customize
   */
 
@@ -141,7 +140,7 @@
   font-size: 1rem;
 }
 
-:where(h5, h6, p, li) {
+:where(h5, h6, p) {
   /* Prevent long lines for readability */
   max-inline-size: var(--ptt-reset-body-width, 65ch);
 }
@@ -168,10 +167,37 @@
   overflow-wrap: break-word;
 }
 
-:where(p, li) {
+:where(p) {
   /* Text wrap */
   text-wrap: pretty;
   overflow-wrap: break-word;
+}
+
+/* Lists */
+
+:where(li) {
+  /* Prevent long lines for readability */
+  max-inline-size: var(--ptt-reset-body-width, 65ch);
+  /* Text wrap */
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+}
+
+:where(ul, ol)[role="list"] {
+  /* Use role=list when removing list style
+  so it doesn't loose its semantic value on safari */
+  list-style: "none";
+  /* Alternative: list-style-type: "" */
+}
+
+:where(ul):not([role="list"]) {
+  /* Align list marker with the rest of the text */
+  padding-inline-start: var(--ptt-reset-list-pad-ul, 1.75ex);
+}
+
+:where(ol):not([role="list"]) {
+  /* Align list marker with the rest of the text */
+  padding-inline-start: var(--ptt-reset-list-pad-ol, 2.35ex);
 }
 
 /* Media */
@@ -264,40 +290,18 @@
   }
 }
 
-/* Exceptions */
-
-:where(ul):not([role="list"]) {
-  padding-inline-start: 1.75ex;
-  /* Note: apply the role=list when styling with list-style=none
-  so it doesn't loose its semantic value on safari */
-}
-
-:where(ol):not([role="list"]) {
-  padding-inline-start: 2.5ex;
-  /* Note: apply the role=list when styling with list-style=none
-  so it doesn't loose its semantic value on safari */
-}
-
-/* Dark theme */
-
-@media (prefers-color-scheme: dark) {
-  :where(
-      textarea,
-      select,
-      input:not([type="button"], [type="submit"], [type="reset"])
-    ) {
-    background-color: #171a1c;
-  }
-}
-
 /* Customize: Available properties to customize the reset defaults */
 
 :root {
   /* Focus style color: Use brand color or complementary */
   --ptt-reset-focus-color: hsl(26 86% 61%);
 
-  /* Top padding when using links to scrolling down */
+  /* Top padding when using anchor links to scroll down */
   --ptt-reset-scroll-padding: 2em;
+
+  /* Lists padding to align with content */
+  --ptt-reset-list-pad-ul: 1.75ex;
+  --ptt-reset-list-pad-ol: 2.35ex; /* Optimized for single digits*/
 
   /* Better text readability */
   /* This properties best values depend on the font used */
