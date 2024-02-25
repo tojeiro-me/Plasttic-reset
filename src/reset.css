@@ -187,7 +187,6 @@
   /* Use role=list when removing list style
   so it doesn't loose its semantic value on safari */
   list-style: "none";
-  /* Alternative: list-style-type: "" */
 }
 
 :where(ul):not([role="list"]) {
