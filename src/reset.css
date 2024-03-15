@@ -208,12 +208,6 @@
   height: auto;
 }
 
-:where(img, svg, video) {
-  /* Default sizing */
-  max-width: 100%;
-  height: auto;
-}
-
 :where(img, video) {
   /* Avoid distortion by filling the entire content box */
   object-fit: cover;
