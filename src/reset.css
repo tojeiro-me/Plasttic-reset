@@ -216,6 +216,11 @@
 
 /* Forms */
 
+:where(input, textarea, select) {
+  /* Override intrinsic sizing */
+  min-width: 0;
+}
+
 :where(button, input, select, textarea),
 :where(input[type="file"])::-webkit-file-upload-button,
 :where(input)::file-selector-button {

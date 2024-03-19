@@ -1,9 +1,11 @@
-# v3.0.0-alpha.3 (Feb --, 2024)
+# v3.0.0-alpha.3 (Mar --, 2024)
+
+- :warning: Removed: overflow-x: hidden in html, body (use overflow-x: clip on the container)
+- :warning: Updated: custom properties to override some default values
+- :warning: Added: override intrinsic size on input and textarea
 
 - Updated: dependencies
-- :warning: Removed: overflow-x: hidden in html, body (use overflow-x: clip on the container)
 - Added: text-wrap: pretty in paragraphs and list items (Chrome and Firefox)
-- :warning: Updated: custom properties to override some default values
 - Updated: scroll values
 - Updated: comments
 - Added: hanging-punctuation property (Safari only)
