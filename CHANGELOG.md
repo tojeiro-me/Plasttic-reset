@@ -2,7 +2,7 @@
 
 - :warning: Removed: overflow-x: hidden in html, body (use overflow-x: clip on the container)
 - :warning: Updated: custom properties to override some default values
-- :warning: Added: override intrinsic size on input and textarea
+- :warning: Added: override intrinsic size on input, select, textarea
 
 - Updated: dependencies
 - Added: text-wrap: pretty in paragraphs and list items (Chrome and Firefox)
