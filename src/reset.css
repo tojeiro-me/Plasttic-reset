@@ -227,11 +227,8 @@
   /* Apply document default typography styles */
   margin-block-end: 1em;
   padding: 0.5rem;
-
   background: transparent;
-
   border: 1px solid #000000;
-
   color: inherit;
   font: inherit;
   letter-spacing: inherit;
