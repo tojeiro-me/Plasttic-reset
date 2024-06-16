@@ -7,6 +7,9 @@
 - Updated: scroll values
 - Updated: comments
 - Added: hanging-punctuation property (Safari only)
+- :warning: Updated: Replaced Dependabot with Renovate
+- :warning: Updated: Dependabot for GitHub Actions only
+- :warning: Removed: Dependabot Auto Merge
 
 ---
 
