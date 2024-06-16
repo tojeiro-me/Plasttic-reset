@@ -4,6 +4,9 @@
 - :warning: Updated: custom properties to override some default values
 - :warning: Added: override intrinsic size on input, select, textarea
 - :warning: Added: form fields styling
+- :warning: Updated: Replaced Dependabot with Renovate
+- :warning: Updated: Dependabot for GitHub Actions only
+- :warning: Removed: Dependabot Auto Merge
 
 - Updated: dependencies
 - Added: text-wrap: pretty in paragraphs and list items (Chrome and Firefox)
